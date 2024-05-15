@@ -1,0 +1,9 @@
+name: Demo workgflow
+on: workflow_dispatch
+jobs:
+    print:
+        runs-on: ubuntu-lates
+        steps:
+            - name: Print greeting
+              run: echo "Hi, Merion!"
+             
