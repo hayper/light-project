@@ -7,7 +7,7 @@ jobs:
             - name: Print greeting
               run: echo "Hi, Merion!"
             - name: Print a few lines
-              run:
+              run: |
                   echo first line
                   echo second line
                   echo third line
